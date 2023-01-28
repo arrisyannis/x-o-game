@@ -7,13 +7,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(26, 42, 50);
 }
 
 main {
     height: 100vh;
     display: grid;
     place-items: center;
-    background-color: rgb(26, 42, 50);
 }
 
 #container {}
@@ -104,4 +104,17 @@ main {
 
 #third-result {
     background-color: rgb(241, 176, 69);
+}
+
+@media screen and ( max-width:500px) {
+    main {
+        background-color: rgb(26, 42, 50);
+    }
+    #container {
+        padding: 0 2rem;
+    }
+    .btn-play {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
 }
