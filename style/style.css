@@ -110,12 +110,10 @@ main {
     main {
         background-color: rgb(26, 42, 50);
     }
-    #container {
-        padding: 0 2rem;
-    }
+    #container {}
     .btn-play {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 5.5rem;
+        height: 5.5rem;
     }
     .result {
         padding: 0.5rem 1rem;
