@@ -117,5 +117,6 @@ main {
     }
     .result {
         padding: 0.8rem 1.2rem;
+        width: 5.5rem;
     }
 }
