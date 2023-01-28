@@ -114,7 +114,10 @@ main {
         padding: 0 2rem;
     }
     .btn-play {
-        width: 5.5rem;
-        height: 5.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .result {
+        padding: 0.5rem 1rem;
     }
 }
