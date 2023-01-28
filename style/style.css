@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=East+Sea+Dokdo&family=Karla:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Overpass:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-main {}
-
-#container {
-    width: 35%;
-    border: 1px solid magenta;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
+
+main {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(26, 42, 50);
+}
+
+#container {}
 
 .img-o {
     width: 2.1875rem;
@@ -33,7 +40,9 @@ main {}
     justify-content: space-between;
 }
 
-#nav {}
+#nav {
+    padding: 1.5rem;
+}
 
 #nav img {
     width: 1.25rem;
@@ -47,6 +56,7 @@ main {}
     place-items: center;
     border-radius: 1rem;
     background-color: rgb(32, 54, 64);
+    box-shadow: 0px 12px 6px -6px rgba(0, 0, 0, 1);
 }
 
 #turn {
@@ -54,6 +64,9 @@ main {}
     font-weight: 800;
     background-color: rgb(32, 54, 64);
     color: #c4c4c4;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 12px 6px -6px rgba(0, 0, 0, 1);
 }
 
 #return {
@@ -62,9 +75,15 @@ main {}
     border-radius: 0.8rem;
 }
 
+#btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    place-items: center;
+}
+
 .result {
     padding: 0.8rem 1.2rem;
-    border: 1px solid salmon;
     width: 7.5rem;
     text-align: center;
     border-radius: 1rem;
